@@ -1,0 +1,152 @@
+/* Universal CSS */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #d2eafc;
+  font-family: sans-serif;
+}
+
+.loginbox{
+  width: 320px;
+  height: 430px;
+  background: #0c3452;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 2%;
+  padding: 70px 30px;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #5e76ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+  cursor: pointer;
+  background: #4b60de;
+  color: #fff;
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.loginbox a:hover{
+  color: #ffc107;
+}
+
+#nudge-info{
+  display: none;
+  width: 320px;
+  height: 360px;
+  background: #f5f6ff;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  outline-style: solid;
+  outline-color: #00c234;
+  padding: 50px 30px;
+  margin-left: 350px;
+}
+
+.description{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#open-lock{
+  display: none;
+  width: 50px;
+  height: 50px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+#lock{
+  display: none;
+  width: 50px;
+  height: 50px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+#nudge-info input[type="button"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #00c234;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 2px;
+}
+
+#nudge-info input[type="button"]:hover{
+  cursor: pointer;
+  background: #00a300;
+  color: #fff;
+}
+
+#exit{
+  margin-left: 90px;
+}
+
+#exit:hover{
+  cursor: pointer;
+  color: #ff0011;
+}

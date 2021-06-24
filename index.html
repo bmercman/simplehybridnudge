@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="logincss.css">
+    <script defer src="loginjs.js"></script>
+  </head>
+<body id="body">
+
+  <div class="loginbox">
+  <img src="avatar.png" class="avatar">
+    <h1>Login</h1>
+    <form>
+      <p>Create Username</p>
+      <input id="username" type="text" name="" placeholder="Enter Username">
+      <p>Create Password</p>
+      <input id="passwd" type="password" name="" placeholder="Enter Password">
+
+      <svg
+      id="open-lock"
+      xmlns="http://www.w3.org/2000/svg"
+      width="1em"
+      height="1em"
+      style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 24 24">
+      <path d="M17 8V7c0-2.757-2.243-5-5-5S7 4.243 7 7v3H6c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-8c0-1.103-.897-2-2-2H9V7c0-1.654 1.346-3 3-3s3 1.346 3 3v1h2z" fill="#ff0011"/>
+      </svg>
+
+      <svg
+      id="lock"
+      xmlns="http://www.w3.org/2000/svg"
+      width="1em"
+      height="1em"
+      style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 24 24">
+      <path d="M20 12c0-1.103-.897-2-2-2h-1V7c0-2.757-2.243-5-5-5S7 4.243 7 7v3H6c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-8zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v3H9V7z" fill="#00c234"/>
+      </svg>
+
+      <input type="submit" name="" value="Login">
+      <a href="">Already have an account?</a>
+    </form>
+  </div>
+
+  <div id="nudge-info">
+    <div class="description">
+      <p>Using a random password is one of the most secure ways to defend against hackers</p>
+      <p>PassMang will remember the password for you, all you have to do is click</p>
+    </div>
+    <input id="generate" type="button" name="" value="Generate Secure Password">
+    <br>
+    <br>
+    <a id="exit">No thanks</a>
+  </div>
+
+</body>
+</html>
